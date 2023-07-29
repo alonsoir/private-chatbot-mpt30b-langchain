@@ -20,4 +20,11 @@ ingest:
 chat:
 	poetry run python chat.py
 
+# Run question answer over your docs
+server:
+	poetry run python question_answer_docs_server.py
+
+simple_server:
+	poetry run python simple_server.py
+
 
